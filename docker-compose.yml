@@ -84,18 +84,3 @@ services:
             - MONGO_HOST=mongo_2
             - MONGO_PORT=27018
 
-              #    rstudio_client:
-              #        image: idragan/rstudio_client:imported
-              #        hostname: rstudio_client
-              #        expose:
-              #            - 8787
-              #        ports:
-              #            - "8787:8787"
-              #            # Ports convention: <port on host>:<port inside container>
-              #        links:
-              #            - opal_server1
-              #            - opal_server2
-              #        environment:
-              #            - ROOT=TRUE
-              #            - DISABLE_AUTH=TRUE
-
